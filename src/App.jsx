@@ -25,7 +25,7 @@ export default function Portfolio() {
       
   
       <img
-        src="/perfil.jpeg"
+        src={`${import.meta.env.BASE_URL}perfil.jpg`}
         alt="Carlos Galeano"
         style={{
           width: "200px",
